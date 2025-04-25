@@ -122,5 +122,5 @@ Kinshuk Dutta
 ## Acknowledgments
 
 - This project is part of the Explainable AI blog series at [Data-Nizant](https://datanizant.com/unlocking-ai-transparency-a-practical-guide-to-getting-started-with-explainable-ai-xai/)
-- The dataset used in this project is from [source]
+- The dataset used in this project is from [kaggle](https://www.kaggle.com/datasets/saramah/loan-data?resource=download)
 - Special thanks to all contributors and maintainers of the libraries used in this project 
