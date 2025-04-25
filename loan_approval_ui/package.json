@@ -7,7 +7,11 @@
     "start": "node server.js",
     "dev": "webpack serve --mode development",
     "build": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:frontend": "webpack serve --mode development",
+    "start:backend": "node server.js",
+    "start:all": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "stop": "pkill -f \"node server.js\" || true"
   },
   "keywords": [],
   "author": "",
@@ -31,6 +35,7 @@
     "@babel/preset-env": "^7.21.5",
     "@babel/preset-react": "^7.18.6",
     "babel-loader": "^9.1.2",
+    "concurrently": "^8.2.0",
     "css-loader": "^6.7.3",
     "html-webpack-plugin": "^5.5.1",
     "style-loader": "^3.3.2",
